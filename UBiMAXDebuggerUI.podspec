@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXDebuggerUI'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'UBiX聚合SassSDK 测试工具'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,9 +12,8 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
 
-  s.subspec 'UBiMAXDebuggerUI' do |cs|
   s.vendored_frameworks = 'UBiMAXDebuggerUI.framework'
-  s.resources = 'UBiMAXDebuggerUIResources.bundle'
+  s.resource = 'UBiMAXDebuggerUIResources.bundle'
 
   s.dependency 'UBiMAXAdSDK'
   s.dependency 'UBiXDaq'
@@ -24,6 +23,5 @@ Pod::Spec.new do |s|
   s.dependency 'UBiMAXRewardedVideo'
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
-  end
   
 end
