@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
   s.vendored_frameworks = 'UBiMAXDebuggerUI.framework'
-  s.resources = 'UBiMAXDebuggerUI.bundle'
+  s.resources = 'UBiMAXDebuggerUIResources.bundle'
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
