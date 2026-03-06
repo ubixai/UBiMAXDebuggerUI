@@ -1,0 +1,6 @@
+framework module UBiMAXDebuggerUI {
+  umbrella header "UBiMAXDebuggerUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
