@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXDebuggerUI'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'UBiX聚合SassSDK 测试工具'
   s.homepage         = 'https://www.ubixai.com/product/md'
   s.author           = { 'zhugq' => 'guoqiang.zhu@ubixai.com' }
